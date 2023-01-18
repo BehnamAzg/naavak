@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>استارت آپ استودیو ناوک</title>
+  <link rel="shortcut icon" href="images/fav-icon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/shabnam-font@v[5.0.1]/dist/font-face.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="preloader"></div>
+
+  <header id="top-link">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top p-0" id="navbar" style="font-size: 14px; font-weight: 500; transition: all 0.3s;">
+      <div class="container-fluid main-padding py-3" style="padding-top: 5px; padding-bottom: 5px;">
+        <a class="navbar-brand logo-hover" href="#">
+          <img src="images/naavak-logo.png" alt="Naavak" height="30" width="auto">
+        </a>
+        <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end navbar-bg mt-4 mt-lg-0 rounded-bottom" id="navbarSupportedContent">
+          <ul class="navbar-nav me-0 mb-2 mb-lg-0 mt-lg-1">
+            <li class="nav-item">
+              <a class="nav-link active px-3 text-black py-3 py-lg-2" aria-current="page" href="#">صفحه اصلی</a>
+            </li>
+            <li class="border-top" style="border-color: rgba(0, 0, 0, 0.08) !important;"></li>
+            <li class="nav-item">
+              <a class="nav-link px-3 text-black py-3 py-lg-2" href="#">خدمات</a>
+            </li>
+            <li class="border-top" style="border-color: rgba(0, 0, 0, 0.08) !important;"></li>
+            <li class="nav-item">
+              <a class="nav-link px-3 text-black py-3 py-lg-2" href="#">وبلاگ</a>
+            </li>
+            <li class="border-top" style="border-color: rgba(0, 0, 0, 0.08) !important;"></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-3 text-black py-3 py-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                استارت آپ ها
+                <span><i class="fa-solid fa-angle-down ps-1" style="font-size: 12px; vertical-align:middle;"></i></span>
+              </a>
+              <ul class="dropdown-menu border-0 p-0 rounded-0 rounded-bottom bg-transparent" style="font-size: 14px;">
+                <li><a class="dropdown-item p-2 text-black-50 px-3 bg-white mt-0 mt-lg-3" href="#">میزیتو</a></li>
+                <li><hr class="dropdown-divider m-0" style="border-color: #F4F4F4;"></li>
+                <li><a class="dropdown-item p-2 text-black-50 px-3 bg-white mb-3 mb-lg-0" href="#">ماشروم بازار</a></li>
+              </ul>
+            </li>
+            <li class="border-top" style="border-color: rgba(0, 0, 0, 0.08) !important;"></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-3 text-black py-3 py-lg-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                فراخوان ها
+                <span><i class="fa-solid fa-angle-down ps-1" style="font-size: 12px; vertical-align:middle;"></i></span>
+              </a>
+              <ul class="dropdown-menu border-0 p-0 rounded-0 rounded-bottom bg-transparent" style="font-size: 14px;">
+                <li><a class="dropdown-item p-2 text-black-50 px-3 bg-white mt-0 mt-lg-3" href="#">اشتغال سازی فناوری روستایی</a></li>
+                <li><hr class="dropdown-divider m-0" style="border-color: #F4F4F4;"></li>
+                <li><a class="dropdown-item p-2 text-black-50 px-3 bg-white mb-3 mb-lg-0" href="#">کمپین صنعت قارچ</a></li>
+              </ul>
+            </li>
+            <li class="border-top" style="border-color: rgba(0, 0, 0, 0.08) !important;"></li>
+            <li class="nav-item">
+              <a class="nav-link px-3 text-black py-3 py-lg-2" href="#">در باره ما</a>
+            </li>
+            <li class="border-top" style="border-color: rgba(0, 0, 0, 0.08) !important;"></li>
+            <li class="nav-item">
+              <a class="nav-link px-3 text-black pe-3 pe-lg-0" href="#">تماس با ما</a>
+            </li>
+          </ul>
+          <div class="container d-lg-none text-center mt-4 mb-4">
+            <div class="row">
+              <div class="col"></div>
+              <div class="col d-flex justify-content-center align-items-center p-0">
+                  <a href="https://www.instagram.com/naavak.acc/" target="_blank"><i class="fa-brands fa-instagram fa-2x btn socials" style="color: #AAAAAA;"></i></a>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center p-0">
+                <a href="#" target="_blank"><i class="fa-brands fa-telegram fa-2x btn socials" style="color: #AAAAAA;"></i></a>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center p-0">
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-2x btn socials" style="color: #AAAAAA;"></i></a>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center p-0">
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-2x btn socials" style="color: #AAAAAA;"></i></a>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section>
+      <div class="container-fluid main-padding d-flex align-items-center" id="hero" style=" background: rgb(255,255,255); background: linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(244,244,244,0) 100%);">
+        <div class="container-fluid p-0" id="hero-sub-container">
+          <div class="row row-cols-1 row-cols-lg-2 m-0 p-0 my-auto" >
+            <div class="col p-0 my-auto pe-lg-5 pb-3 pb-md-0">
+              <h6 class="" style="color: #EC008C;">استارت آپ استودیو ناوک</h6>
+              <h2 class="fw-bold mt-4">با هم <span class="auto-type"></span></h2>
+              <p class="text-black-50 mt-5 lh-lg">ما <strong>بهترین</strong> استارت آپ ها، شرکت ها، منتورها و سرمایه گذاران
+                را در کنارهم جمع کرده ایم.
+              </p>
+              <div class="text-center text-lg-start"><a href="#"><button class="btn mt-4 text-white py-2 px-4 slide" id="main-btn" style="background-color: #EC008C;"><span class="">داستان ما</span></button></a></div>
+            </div>
+            <div class="col p-0 ps-lg-5 pt-5 pt-lg-0"><img src="images/rocket.png" class="img-fluid" id="main-img" alt="Rocket"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- introduction -->
+    <section>
+      <div class="container-fluid bg-white main-padding pt-5" id="introduction">
+            <div class="row m-0 mt-5 mt-lg-0">
+              <div class="col-auto my-auto p-0"><h5 class="fw-bold">معرفی</h5></div>
+              <div class="col my-auto p-0 ps-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" ></div>
+            </div>
+            <div class="row m-0 pb-5 row-cols-1 row-cols-lg-2" style="padding-top: 2.5rem;">
+            <div class="col p-0 pe-lg-4">
+                <p class="lh-lg text-black-50">
+                  ناوک در بهار ۱۳۹۹ از گردهم آمدن جمعی از سرمایه داران بخش خصوصی، صنعتگران و افراد فعال در حوزه استارت آپ ها شکل گرفت.
+                </p>
+                <p class="lh-lg text-black-50">
+                  ما در ناوک به پشتوانه سابقه ارزشمند تیم خود در دانش فنی، صنعت و بازار، به دنبال جذب و حمایت از تیم‌های استارت آپی فرصت‌سنج، نوآور، خلاق و پر تلاش هستیم، تا با فراهم آوردن بستری مناسب در جهت رشد و توسعه ایده های نوآورانه قدمی مؤثر برداریم.
+                </p>
+            </div>
+            <div class="col p-0 ps-lg-4 mt-5 mt-lg-0">
+              <div id="59746661277"><script type="text/JavaScript" src="https://www.aparat.com/embed/v32wQ?data[rnddiv]=59746661277&data[responsive]=yes"></script></div>
+            </div>
+            <div class="col p-0 pe-lg-4 mt-5">
+                <h5 class="fw-semibold">ماموریت ما</h5>
+                <p class="pt-3 lh-lg text-black-50">
+                  تولید الگوی موفق حمایتی از کسب و کارهای نوپا در بخش خصوصی، با ایجاد شبکه مثلثی مابین صاحبان طرح و ایده، سرمایه‌گذاران فرشته (خطرپذیر)، و مشاورین و منتورهای باتجربه در صنعت و بازار می‌باشد.
+                </p>
+            </div>
+            <div class="col p-0 ps-lg-4 mt-5">
+                <h5 class="fw-semibold">چشم انداز ما</h5>
+                <p class="pt-3 lh-lg text-black-50">
+                  ایجاد معتبرترین مرکز شتابدهی در زمینه های مشاوره، سرمایه‌گذاری و شبکه سازی برای کسب و کارهای نوآورانه است.
+                </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- activities -->
+    <section>
+      <div class="container-fluid main-padding pt-5 pb-0 position-relative bg-white" style="margin-top: 10rem;">
+        <div class="container-fluid main-padding position-absolute top-0 start-50 translate-middle ">
+          <div class="container-fluid bg-white px-3 py-3 px-md-5 py-md-3 p-lg-4 rounded"> 
+            <div class="row pt-2 pb-3 pt-lg-0 pb-lg-4">
+              <div class="col pe-3 pe-md-5">
+                <hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" >
+              </div>
+              <div class="col-auto my-auto p-0"><h5 class="fw-semibold">حوزه های فعالیت ما</h5></div>
+              <div class="col ps-3 ps-md-5">
+                <hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" >
+              </div>
+            </div>
+            <div class="row row-cols-2 row-cols-lg-4 g-3 g-lg-4 ">
+              <a href="#">
+                <div class="col text-center">
+                  <div class="card ratio position-relative border-0" style="--bs-aspect-ratio: 28%; overflow: hidden;">
+                    <img src="images/calle-macarone-Vl78eNdiJaQ-unsplash.jpg" class="card-img position-absolute" style="width: 100%; height: auto; top: 50%; transform: translateY(-50%);">
+                    <div class="card-img-overlay bg-black bg-opacity-25 d-flex align-items-center justify-content-center activity-img-hover">
+                      <i class="fa-solid fa-utensils text-white icon-txt"></i>
+                      <h6 class="card-title text-white fw-light d-inline-block ps-2 m-0 icon-txt">صنایع غذایی</h6>
+                    </div> 
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="col text-center">
+                  <div class="card ratio position-relative border-0" style="--bs-aspect-ratio: 28%; overflow: hidden;">
+                    <img src="images/alexander-schimmeck-W3MXYIfyxno-unsplash.jpg" class="card-img position-absolute" style="width: 100%; height: auto; top: 50%; transform: translateY(-50%);">
+                    <div class="card-img-overlay bg-black bg-opacity-25 d-flex align-items-center justify-content-center activity-img-hover">
+                      <i class="fa-solid fa-truck-plane text-white icon-txt"></i>
+                      <h6 class="card-title text-white fw-light d-inline-block ps-2 m-0 icon-txt">حمل و نقل</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="col text-center">
+                  <div class="card ratio position-relative border-0" style="--bs-aspect-ratio: 28%; overflow: hidden;">
+                    <img src="images/raphael-rychetsky-li9JfUHQfOY-unsplash.jpg" class="card-img position-absolute" style="width: 100%; height: auto; top: 50%; transform: translateY(-50%);">
+                    <div class="card-img-overlay bg-black bg-opacity-25 d-flex align-items-center justify-content-center activity-img-hover">
+                      <i class="fa-solid fa-tractor text-white icon-txt"></i>
+                      <h6 class="card-title text-white fw-light d-inline-block ps-2 m-0 icon-txt">کشاورزی</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div class="col text-center">
+                  <div class="card ratio position-relative border-0" style="--bs-aspect-ratio: 28%; overflow: hidden;">
+                    <img src="images/julian-schiemann-g-O9LQV51Qc-unsplash.jpg" class="card-img position-absolute" style="width: 100%; height: auto; top: 50%; transform: translateY(-50%);">
+                    <div class="card-img-overlay bg-black bg-opacity-25 d-flex align-items-center justify-content-center activity-img-hover">
+                      <i class="fa-solid fa-carrot text-white icon-txt"></i>
+                      <h6 class="card-title text-white fw-light d-inline-block ps-2 m-0 icon-txt">خوراک دام</h6>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="row p-0 m-0 mt-4 text-center" style="border-top: 1px solid rgba(0, 0, 0, 0.08); border-bottom: 1px solid rgba(0, 0, 0, 0.08); color: black;">
+              <div class="col-12  p-2">
+                <p class="m-0 text-black-50 fw-semibold" style="font-size: 14px;">بــیــش  از  ده  هــا  اســتــارت  آپ  مــوفــق  در  ســراســر  کــشــور ...</p>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+
+
+        <div class="container-fluid" id="main-map-bg" style="user-select: none;">
+          <div class="row justify-content-center align-items-center ">
+            <div class="col-12 d-flex justify-content-center align-items-center position-relative" id="map-col">
+              <div class="position-absolute circle-1"></div>
+              <div class="position-absolute circle-2"></div>
+              <div class="position-absolute circle-3"></div>
+              <div class="position-absolute" id="map-img"><img src="images/iran-map.svg" class="img-fluid"></div>
+              <div class="position-absolute circle-dot" id="circle-dot-1"></div>
+              <div class="position-absolute circle-dot" id="circle-dot-2"></div>
+              <div class="position-absolute circle-dot" id="circle-dot-3"></div>
+              <div class="position-absolute circle-dot" id="circle-dot-4"></div>
+              <div class="position-absolute circle-dot" id="circle-dot-5"></div>
+              <div class="position-absolute circle-empty d-flex justify-content-center align-items-center" id="circle-empty-1">
+                <i class="fa-solid fa-tractor"></i>
+              </div>
+              <div class="position-absolute circle-empty d-flex justify-content-center align-items-center" id="circle-empty-2">
+                <i class="fa-solid fa-truck-plane"></i>
+              </div>
+              <div class="position-absolute circle-empty d-flex justify-content-center align-items-center" id="circle-empty-3">
+                <i class="fa-solid fa-utensils"></i>
+              </div>
+              <div class="position-absolute circle-empty d-flex justify-content-center align-items-center" id="circle-empty-4">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div class="position-absolute circle-empty d-flex justify-content-center align-items-center" id="circle-empty-5">
+                <i class="fa-solid fa-carrot"></i>
+              </div>
+              <div class="position-absolute circle-txt d-flex justify-content-center align-items-center" id="circle-txt-1">
+                <button type="button" class="border-0 text-black-50 text-center fw-semibold circle-font" style="background-color: white; border-radius: 100%; height: 100%; width: 100%;" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.">صنایع غذایی</button>
+              </div>
+              <div class="position-absolute circle-txt d-flex justify-content-center align-items-center" id="circle-txt-2">
+                <button type="button" class="border-0 text-black-50 text-center fw-semibold circle-font" style="background-color: white; border-radius: 100%; height: 100%; width: 100%;" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.">حمل و نقل</button>
+              </div>
+              <div class="position-absolute circle-txt d-flex justify-content-center align-items-center" id="circle-txt-3">
+                <button type="button" class="border-0 text-black-50 text-center fw-semibold circle-font" style="background-color: white; border-radius: 100%; height: 100%; width: 100%;" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.">کشاورزی</button>
+              </div>
+              <div class="position-absolute circle-txt d-flex justify-content-center align-items-center" id="circle-txt-4">
+                <button type="button" class="border-0 text-black-50 text-center fw-semibold circle-font" style="background-color: white; border-radius: 100%; height: 100%; width: 100%;" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.">خوراک دام</button>
+              </div>
+              <div class="position-absolute circle-txt d-flex justify-content-center align-items-center" id="circle-txt-5">
+                <button type="button" class="border-0 text-black-50 text-center fw-semibold circle-font" style="background-color: white; border-radius: 100%; height: 100%; width: 100%;" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.">انرژی</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section>
+      <div class="container-fluid main-padding mt-4 mt-lg-5">
+
+        <div class="row mx-0" style="margin-top: 5rem;">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold">خدمات</h5></div>
+          <div class="col my-auto p-0 ps-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" ></div>
+        </div>
+
+        <div class="row row-cols-3 row-cols-lg-6 mt-3 g-3 g-md-4">
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/conversation.svg" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">مشاوره</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">مشاوره</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/group-presentation.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">تهیه طرح مدل کسب و کار</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">تهیه طرح مدل کسب و کار</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/team-building.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">تیم سازی</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">تیم سازی</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/coworking.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">فضای کار اشتراکی</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">فضای کار اشتراکی</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/entrepreneurs.svg" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">تجاری سازی</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">تجاری سازی</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/wallet.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">جذب سرمایه</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">جذب سرمایه</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 text-center p-2 rounded-top" id="middle-banner-bg-animation" style="margin-top: 5rem;">
+          <h5 class="m-0 text-white ">بـه جـمـع نـاوک بـپـیـونـدیـد &#128640;</h5>
+        </div>
+
+        <div class="col">
+          <div class="card ratio rounded-0 rounded-bottom border-0" id="middle-banner" style="overflow: hidden; background-color: #e3e3e3;">
+            <img loading="lazy" src="images/1667397493-5PFYNEND.jpg" class="card-img" style="width: 100%; height: auto; top: 72%; transform: translateY(-50%);">
+        </div>
+
+
+        <div class="row mx-0" style="margin-top: 5rem;">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold">خدمات اسمارت استودیو</h5></div>
+          <div class="col my-auto p-0 ps-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" ></div>
+        </div>
+
+        <div class="row row-cols-3 row-cols-lg-6 mt-3 g-3 g-md-4">
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/designer.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">طراحی وبسایت و اپلیکیشن</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">طراحی وبسایت و اپلیکیشن</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/seo.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">بهینه سازی سئو</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">بهینه سازی سئو</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/target-audience.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">بازاریابی محتوا</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">بازاریابی محتوا</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/digital-content.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">بازاریابی شبکه های اجتماعی</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">بازاریابی شبکه های اجتماعی</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/pr.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">تبلیغات اینترنتی</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">تبلیغات اینترنتی</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col card-container">
+            <div class="card border-0 rounded h-100 card-main position-relative" style="box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);">
+              <div class="card-front">
+                <img src="/images/consulting.svg" class="card-img-top p-3" alt="...">
+                <div class="card-body">
+                  <h6 class="card-text text-center">مشاوره و آموزش</h6>
+                </div>
+              </div>
+              <div class="card-back rounded text-black-50 p-3 position-absolute">
+                <h6 class="my-3 text-center fw-bold" style="color:#EC008C;">مشاوره و آموزش</h6>
+                <p class="card-back-font fw-semibold">متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  
+
+        <div class="container-fluid d-flex justify-content-center align-items-center" style="margin-top: 4rem;">
+          <a href="#" type="button">
+            <div class="start-button position-relative d-flex justify-content-center align-items-center">
+              <div class="start-button-reflect position-absolute">
+                <div class="start-button-reflect-1"></div>
+                <div class="start-button-reflect-2"></div>
+                <div class="start-button-reflect-3"></div>
+                <div class="start-button-reflect-4"></div>
+              </div>
+              <p class="position-absolute m-0">شروع</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- invite -->
+    <section class="position-relative">
+      <div class="container-fluid main-padding">
+
+        <div class="row mx-0" id="invite-mt">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold">فراخوان ایده ها</h5></div>
+          <div class="col my-auto p-0 ps-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" ></div>
+        </div>
+
+        <ul class="nav nav-tabs border-0 position-relative" style="margin-top: 2.5rem;" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active border-0 text-black-50 tabs"  id="first-tab" data-bs-toggle="tab" data-bs-target="#first-tab-pane" type="button" role="tab" aria-controls="first-tab-pane" aria-selected="true">اشتغال سازی فناوری روستایی</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link border-0 text-black-50 tabs" id="second-tab" data-bs-toggle="tab" data-bs-target="#second-tab-pane" type="button" role="tab" aria-controls="second-tab-pane" aria-selected="false">کمپین صنعت قارچ</button>
+          </li>
+        </ul>
+        
+        <div class="tab-content" id="myTabContent">
+
+          <!-- first tab -->
+          <div class="tab-pane fade show active rounded p-5" id="first-tab-pane" role="tabpanel" aria-labelledby="first-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col text-black-50 mb-4 mb-md-0">
+                <p>
+                  <p>شتاب دهنده ناوک با همکاری قرارگاه عملیاتی اشتغال استان و اداره کل تعاون کار و رفاه اجتماعی خراسان رضوی
+                    برگزار می نماید:
+                  </p><br>
+                  <h6 class="text-black">
+                    <em>
+                      " فراخوان جذب ایده ها و استارت آپ های روستایی "
+                    </em>
+                  </h6><br>
+                  <strong>
+                    توضیحات:
+                  </strong>
+                </p>
+              </div>
+
+              <div class="col position-relative text-center mb-5 mb-md-0">
+                  <button class="p-0 border-0 open-phone bg-transparent phone-button" data-bs-toggle="modal" data-bs-target="#phone-modal">
+                    <img src="images/phone.svg" class="img-fluid" id="phone-image">
+                    <img loading="lazy" src="images/poster-1.jpg" class="img-fluid" id="phone-image-poster">
+                  </button>
+              </div>
+              
+                <div class="col">
+                  <table class="table table-hover table-bordere border-white" style="font-size: 14px;">
+                    <tbody>
+                      <tr class="">
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">ارائه دهنده:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">شتاب دهنده ناوک</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">تاریخ:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">۱۴۰۱/۰۸/۲۰</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">روز:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">جمعه</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">ساعت:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">۱۰ صبح</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">آدرس:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">مشهد، خیابان، مجموعه</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="col d-flex align-items-end">
+                  <table class="table table-hover table-bordere border-white" style="font-size: 14px;">
+                    <tbody>
+                      <tr class="">
+                        <td class="ps-3 align-middle text-white" style="background-color: #009D82;">وضعیت ثبت نام:</td>
+                        <td class="ps-3 align-middle text-white text-center" style="background-color: #009D82;">فعال</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">تعداد شرکت کنندگان:</td>
+                        <td class="ps-3 align-middle text-center" style="background-color: #F4F4F4;">۷۶ نفر</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">ظرفیت خالی:</td>
+                        <td class="ps-3 align-middle text-center" style="background-color: #F4F4F4;">۲۴ نفر</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+
+            <div class="container-fluid text-center p-0 mt-5">
+              <a href="#">
+                <button type="button" class="btn px-3 fs-6" id="sign-up-button">ثبت نام در رویداد</button>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- second tab -->
+          <div class="tab-pane fade rounded p-5" id="second-tab-pane" role="tabpanel" aria-labelledby="second-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col text-black-50 mb-4 mb-md-0">
+                <p>
+                  <p>شتاب دهنده ناوک با همکاری قرارگاه عملیاتی اشتغال استان و اداره کل تعاون کار و رفاه اجتماعی خراسان رضوی
+                    برگزار می نماید:
+                  </p><br>
+                  <h6 class="text-black">
+                    <em>
+                      " کمپین صنعت قارچ "
+                    </em>
+                  </h6><br>
+                  <strong>
+                    توضیحات:
+                  </strong>
+                </p>
+              </div>
+
+              <div class="col position-relative text-center mb-5 mb-md-0">
+                  <button class="p-0 border-0 open-phone bg-transparent phone-button" data-bs-toggle="modal" data-bs-target="#phone-modal-2">
+                    <img src="images/phone.svg" class="img-fluid" id="phone-image">
+                    <img loading="lazy" src="images/poster-2.jpg" class="img-fluid" id="phone-image-poster">
+                  </button>
+              </div>
+              
+                <div class="col">
+                  <table class="table table-hover table-bordere border-white" style="font-size: 14px;">
+                    <tbody>
+                      <tr class="">
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">ارائه دهنده:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">شتاب دهنده ناوک</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">تاریخ:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">۱۴۰۱/۰۸/۲۰</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">روز:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">جمعه</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">ساعت:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">۱۰ صبح</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">آدرس:</td>
+                        <td class="ps-3 align-middle" style="background-color: #F4F4F4;">مشهد، خیابان، مجموعه</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="col d-flex align-items-end">
+                  <table class="table table-hover table-bordere border-white" style="font-size: 14px;">
+                    <tbody>
+                      <tr class="">
+                        <td class="ps-3 align-middle text-white bg-danger">وضعیت ثبت نام:</td>
+                        <td class="ps-3 align-middle text-white text-center bg-danger">غیر فعال</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">تعداد شرکت کنندگان:</td>
+                        <td class="ps-3 align-middle text-center" style="background-color: #F4F4F4;">۱۰۰ نفر</td>
+                      </tr>
+                      <tr>
+                        <td class="ps-3 align-middle" style="background-color: #e3e3e3;">ظرفیت خالی:</td>
+                        <td class="ps-3 align-middle text-center" style="background-color: #F4F4F4;">۰ نفر</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+
+            <div class="container-fluid text-center p-0 mt-5">
+              <a href="#">
+                <button type="button" class="btn px-3 fs-6" id="sign-up-button">ثبت نام در رویداد</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="phone-modal" tabindex="-1" aria-labelledby="phone-Modal-lable" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header px-4">
+                <h1 class="modal-title fs-6" id="phone-modal-lable">فراخوان جذب ایده و استارت آپ های روستایی</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img loading="lazy" src="images/poster-1.jpg" class="" style="height: 76vh;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="phone-modal-2" tabindex="-1" aria-labelledby="phone-Modal-lable" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header px-4">
+                <h1 class="modal-title fs-6" id="phone-modal-lable">کمپین صنعت قارچ</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img loading="lazy" src="images/poster-2.jpg" class="" style="height: 76vh;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid position-absolute"style="height: 700px; background-color: #1E1E1E; z-index: -2; top: 70%"></div>
+
+    </section>
+
+    <!-- works -->
+    <section class="d-grid position-relative" style="place-items: center; background-color: #1E1E1E;">
+
+      <div class="container-fluid main-padding">
+        <div class="row" style="margin: 5rem 0 0 0;">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold text-white">برخی از استارت آپ های ما</h5></div>
+          <div class="col my-auto p-0 ps-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: #AAAAAA !important;" ></div>
+        </div>
+      </div>
+
+      <div class="card-swiper" style="margin-top: 88vmin;">
+        <div class="card-group-wrapper-wrapper">
+          <div class="card-group-wrapper" data-index="0" data-status="active">
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+          </div>
+          <!-- <div class="card-group-wrapper" data-index="1" data-status="unknown">
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+          </div>
+          <div class="card-group-wrapper" data-index="2" data-status="unknown">
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+            <div class="card-group-main little-card"></div>
+            <div class="card-group-main big-card"></div>
+          </div> -->
+        </div>
+      </div>
+      <div class="card-swiper-buttons">
+        <button id="next-button" onclick="handleNextClick()">
+          <i class="fa-solid fa-angle-right align-middle pt-1"></i>
+        </button>
+        <button id="previous-button" onclick="handlePreviousClick()">
+          <i class="fa-solid fa-angle-left align-middle pt-1"></i>
+        </button>
+      </div>
+
+
+    </section>
+
+    <!-- posts -->
+    <!-- <section>
+      <div class="container-fluid main-padding">
+        <div class="row" style="margin: 5rem 0 0 0;">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold">مقالات</h5></div>
+          <div class="col my-auto p-0 px-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" ></div>
+          <div class="col-auto my-auto p-0"><a href="#" id="show-more" style="color: #EC008C; text-decoration: none;"><h6 style="font-size: 14px;">نمایش همه</h6></a></div>
+        </div>
+
+        <div class="row mt-4 mx-0 py-3 post-row-wrapper" id="post-row" style="overflow-x: auto; flex-wrap: nowrap;">
+
+          <div class="col d-inline-block ps-0">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post" style="width: 12rem; user-select: none !important; -webkit-user-drag: none !important;">
+                <img src="images/thumbnails/p-1.png" class="card-img-top p-3 img-fluid card-post-image" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base" style="margin-bottom: 11px;">کارآفرینی چیست؟</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 14px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 14px; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col d-inline-block ">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post" style="width: 12rem; user-select: none !important; -webkit-user-drag: none !important;">
+                <img src="images/thumbnails/p-2.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base">مدل های تامین مالی استارت آپ ها</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 14px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 14px; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col d-inline-block">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post" style="width: 12rem; user-select: none !important; -webkit-user-drag: none !important;">
+                <img src="images/thumbnails/p-3.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base">فناوری در کشاورزی - AgTech</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 14px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 14px; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col d-inline-block">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post" style="width: 12rem; user-select: none !important; -webkit-user-drag: none !important;">
+                <img src="images/thumbnails/p-4.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base">چالش های حقوقی استارت آپ ها</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 14px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 14px; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col d-inline-block">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post" style="width: 12rem; user-select: none !important; -webkit-user-drag: none !important;">
+                <img src="images/thumbnails/p-5.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base">لورم ایپسوم متن ساختگی</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 14px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 14px; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col d-inline-block pe-0">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post" style="width: 12rem; user-select: none !important; -webkit-user-drag: none !important;">
+                <img src="images/thumbnails/p-6.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base">لورم ایپسوم متن ساختگی</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 14px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 14px; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+
+    <section>
+      <div class="container-fluid main-padding">
+        <div class="row" style="margin: 5rem 0 0 0;">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold">آخرین مقالات</h5></div>
+          <div class="col my-auto p-0 px-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;" ></div>
+          <div class="col-auto my-auto p-0"><a href="#" id="show-more" style="color: #EC008C; text-decoration: none;"><h6 style="font-size: 14px;">نمایش همه</h6></a></div>
+        </div>
+
+        <div class="row row-cols-3 row-cols-md-4 row-cols-xl-6 g-3 mt-4 mx-0 py-3" id="post-row">
+
+          <div class="col">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post h-100" style="user-select: none !important; -webkit-user-drag: none !important;">
+                <img loading="lazy" src="images/thumbnails/p-1.png" class="card-img-top p-3 img-fluid card-post-image" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base" style="font-size: 2.4vmin;">کارآفرینی چیست؟</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 2.2vmin; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 2vmin; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post h-100" style="user-select: none !important; -webkit-user-drag: none !important;">
+                <img loading="lazy" src="images/thumbnails/p-2.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base" style="font-size: 2.4vmin;">مدل های تامین مالی استارت آپ ها</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 2.2vmin; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 2vmin; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post h-100" style="user-select: none !important; -webkit-user-drag: none !important;">
+                <img loading="lazy" src="images/thumbnails/p-3.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base" style="font-size: 2.4vmin;">فناوری در کشاورزی - AgTech</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 2.2vmin; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 2vmin; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post h-100" style="user-select: none !important; -webkit-user-drag: none !important;">
+                <img loading="lazy" src="images/thumbnails/p-4.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base"  style="font-size: 2.4vmin;">چالش های حقوقی استارت آپ ها</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 2.2vmin; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 2vmin; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post h-100" style="user-select: none !important; -webkit-user-drag: none !important;">
+                <img loading="lazy" src="images/thumbnails/p-5.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base" style="font-size: 2.4vmin;">لورم ایپسوم متن ساختگی</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 2.2vmin; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 2vmin; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#" style="text-decoration: none; user-select: none !important; -webkit-user-drag: none !important;">
+              <div class="card border-0 card-post h-100" style="user-select: none !important; -webkit-user-drag: none !important;">
+                <img loading="lazy" src="images/thumbnails/p-6.png" class="card-img-top p-3 img-fluid" alt="..."  style="border-radius: 1.4rem !important; user-select: none !important; -webkit-user-drag: none !important;">
+                <div class="card-body pt-0">
+                  <h6 class="card-title text-black lh-base" style="font-size: 2.4vmin;">لورم ایپسوم متن ساختگی</h6>
+                  <p class="card-text text-black-50 mb-3" style="font-size: 2.2vmin; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                  <p class="card-text justify-content-between d-flex" style="font-size: 2vmin; direction: ltr;"><small class="text-black-50">
+                    <i class="fa-regular fa-calendar ps-2"></i>۱۴۰۱/۰۸/۲۶</small>
+                    <small class="post-show-more">
+                      ...
+                      بیشتر
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- partners -->
+    <section>
+      <div class="container-fluid main-padding mt-5">
+        <div class="row m-0">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold">همکاران ناوک</h5></div>
+          <div class="col my-auto p-0 ps-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;">
+        </div>
+        
+        <div class="row p-0 m-0 mt-5">
+          <div class="col p-0">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/logos/c-1.png" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/logos/c-2.png" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/logos/c-3.png" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/logos/c-4.png" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/logos/c-5.png" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/logos/c-6.png" class="img-fluid">
+                </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section>
+      <div class="container-fluid main-padding py-5"  style="margin-top: 5rem; background-color: #e3e3e3;">
+        <div class="row m-0">
+          <div class="col-auto my-auto p-0"><h5 class="fw-bold">ارتباط با ما</h5></div>
+          <div class="col my-auto p-0 ps-5"><hr class="table-group-divider" style="border-width: 1px !important; border-color: rgba(0, 0, 0, 0.25) !important;">
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-2 m-0 p-0 mt-5">
+          <div class="col d-flex flex-column justify-content-between p-0 pt-5 pe-lg-3 pt-lg-0 order-2 order-lg-1">
+            <div>
+              <div class="container rounded p-2" style="background-color: #F4F4F4; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);">
+                <p class="m-0">
+                  <i class="fa-solid fa-location-dot align-middle p-2 pe-3"></i>
+                  مشهد، فرهاد ۲۲، پلاک ۲۰۹، طبقه منفی یک
+                </p>
+              </div>
+              <div class="container rounded p-2 mt-3" style="background-color: #F4F4F4; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);">
+                <p class="m-0">
+                  <i class="fa-solid fa-phone-volume align-middle p-2 pe-3"></i>
+                  ۰۵۱-۳۷۶۰۱۰۴۱  -  ۰۵۱-۳۷۶۰۱۰۴۰
+                </p>
+              </div>
+              <div class="container rounded p-2 mt-3" style="background-color: #F4F4F4; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);">
+                <p class="m-0">
+                  <i class="fa-solid fa-envelope align-middle p-2 pe-3"></i>
+                  info@naavak.com
+                </p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="https://www.instagram.com/naavak.acc/" target="_blank" class="mt-5 mx-3" data-bs-toggle="tooltip" data-bs-custom-class="instagram-tooltip" data-bs-delay='{ "show": 100, "hide": 100 }' data-bs-title="اینستاگرام" style="text-decoration: none;">
+                <div id="instagram-hover" class="d-inline-flex justify-content-center align-items-center rounded p-0 socilasOnHover mt-2" style="width: 2.5rem; height: 2.5rem; background-color: #F4F4F4; color: #EC008C; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);">
+                  <i class="fa-brands fa-instagram" style="font-size: 1.6rem;"></i>
+                </div>
+              </a>
+              <a href="#" class="mt-5 mx-3" data-bs-toggle="tooltip" data-bs-custom-class="telegram-tooltip" data-bs-fallbackPlacement='' data-bs-delay='{ "show": 100, "hide": 100 }' data-bs-title="تلگرام" style="text-decoration: none;">
+                <div id="telegram-hover" class="d-inline-flex justify-content-center align-items-center rounded p-0 socilasOnHover mt-2" style="width: 2.5rem; height: 2.5rem; background-color: #F4F4F4; color: #EC008C; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);">
+                  <i class="fa-brands fa-telegram" style="font-size: 1.6rem;"></i>
+                </div>
+              </a>
+              <a href="#" class="mt-5 mx-3" data-bs-toggle="tooltip" data-bs-custom-class="twitter-tooltip" data-bs-delay='{ "show": 100, "hide": 100 }' data-bs-title="توییتر" style="text-decoration: none;">
+                <div id="twitter-hover" class="d-inline-flex justify-content-center align-items-center rounded p-0 socilasOnHover mt-2" style="width: 2.5rem; height: 2.5rem; background-color: #F4F4F4; color: #EC008C; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);">
+                  <i class="fa-brands fa-twitter" style="font-size: 1.6rem;"></i>
+                </div>
+              </a>
+              <a href="#" class="mt-5 mx-3" data-bs-toggle="tooltip" data-bs-custom-class="linkedin-tooltip" data-bs-delay='{ "show": 100, "hide": 100 }' data-bs-title="لینکداین" style="text-decoration: none;">
+                <div id="linkedin-hover" class="d-inline-flex justify-content-center align-items-center rounded p-0 socilasOnHover mt-2" style="width: 2.5rem; height: 2.5rem; background-color: #F4F4F4; color: #EC008C; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);">
+                  <i class="fa-brands fa-linkedin" style="font-size: 1.6rem;"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col p-0 ps-lg-3  order-1 order-lg-2">
+            <div class="ratio ratio-16x9 "> 
+              <iframe class="rounded" style="box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d401.87629662253096!2d59.55943227745594!3d36.31205530320644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f6c930d17839a99%3A0x9ebedffe15720d64!2sNaavak%20accelerator!5e0!3m2!1sen!2suk!4v1670703324283!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-fluid main-padding" style="background-color: #1E1E1E;">
+
+        <div class="container-fluid p-0 ">
+          <div class="row m-0 position-relative d-flex justify-content-start mb-3">
+            <div class="col col-12 col-lg-auto mt-5 p-0 d-flex footer-nav">
+                <a class="p-0 m-0" href="#"><img class="footer-logo" src="images/naavak-logo.png" height="40" width="auto" style="filter: brightness(0) invert(1);"></a>
+            </div>
+            <div class="col col-12 col-lg-auto mt-5 p-0 text-center d-flex justify-content-end footer-nav ms-auto">
+              <ul class="nav">
+                <li class="p-3 pt-0 pt-lg-3"><a class="nav-link text-white p-0 footer-nav-link-hover" href="#">خدمات ناوک</a></li>
+                <li class="p-3 pt-0 pt-lg-3"><a class="nav-link text-white p-0 footer-nav-link-hover" href="#">درباره ما</a></li>
+                <li class="p-3 pt-0 pt-lg-3"><a class="nav-link text-white p-0 footer-nav-link-hover" href="#">وبلاگ</a></li>
+                <li class="p-3 pt-0 pt-lg-3"><a class="nav-link text-white p-0 footer-nav-link-hover" href="#">پذیرش طرح</a></li>
+              </ul>
+            </div>
+            <div class="col col-12 col-lg-auto mt-0 mt-lg-5 p-0 text-center d-flex justify-content-start footer-nav me-auto">
+              <ul class="nav">
+                <li class="p-3"><a class="nav-link text-white p-0 footer-nav-link-hover" href="#">سوالات متداول</a></li>
+                <li class="p-3"><a class="nav-link text-white p-0 footer-nav-link-hover" href="#">تماس با ما</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      <div class="container-fluid p-0">
+        <div class="row m-0">
+          <div class="col my-auto p-0"><hr class="table-group-divider" style="border-width: 1px !important; border-color: #AAAAAA !important;">
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="row m-0 p-0 my-4">
+          <div class="col d-flex justify-content-center p-0 pe-3">
+            <div class="card bg-white rounded-circle overflow-hidden d-flex justify-content-center align-items-center ms-auto footer-logo-2-hover" style="width:18vmin; height:18vmin;">
+              <a href="#"><img src="images/logos/daneshhh.png" class="img-fluid p-2"></a>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center p-0 ps-3">
+            <div class="card bg-white rounded-circle overflow-hidden d-flex justify-content-center align-items-center me-auto footer-logo-2-hover" style="width: 18vmin; height:18vmin;">
+              <a href="#"><img src="images/logos/fanavari.png" class="img-fluid p-2"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="row m-0">
+          <div class="col my-auto p-0"><hr class="table-group-divider" style="border-width: 1px !important; border-color: #AAAAAA !important;">
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="row m-0 py-4" style="font-size: 2.2vmin;">
+          <div class="col my-auto p-0">
+            <p class="text-white text-center">طراحی و پیاده سازی توسط <span><a href="#" class="text-decoration-none">ناوک ©</a></span> کلیه حقوق محفوظ است.</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- buttons -->
+  <section>
+    <a href="#top-link">
+      <button id="goToTop" class="btn position-fixed go-to-top-button border-0" style="background-color: #EC008C;  bottom: 20px; left: 20px;">
+        <i class="fa-solid fa-arrow-up text-white "></i>
+      </button>
+    </a>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2bccc14a82.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
